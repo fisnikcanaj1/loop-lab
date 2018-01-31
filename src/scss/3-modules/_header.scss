@@ -1,0 +1,31 @@
+#home-head-section {
+    background: url(../img/people-mother-family-father.jpg) no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    min-height: 700px;
+    position: relative;
+
+    .home-inner {
+        padding-top: 100px;
+    }
+
+    .dark-overlay {
+        background-color: $dark-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+
+    .card-form {
+        opacity: 0.8;
+    }
+
+    .fa {
+        color: $font-color;
+        background: $bg-color;
+        padding: 4px;
+        border-radius: 5px; 
+    }
+}
